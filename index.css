@@ -1,0 +1,128 @@
+/*style sheet for index page*/
+body{
+    background-color:antiquewhite;
+	opacity: 1;
+	margin: 0px;
+	padding: 0px;
+}
+#leftside{
+	margin: 0;
+	top:0;
+	width: 420px;
+	height:100%;
+}
+#Layer_1 {
+	left:300px;
+	top: 50px;
+	position: absolute;
+	width: 800px;
+	height: 250px;
+}
+@media only screen and (max-device-width: 480px), only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5){
+	
+#home{
+	width: 100%;
+	min-width: 500px;
+	margin: 0;
+}
+header{
+	width: 100%;
+	height: 100%;
+	}
+	nav{
+		width: 100%;
+	height: 100%;
+	}
+section{
+	width: 100%;
+	height: 100%;
+}
+article{
+	width: 100%;
+	height: 100%;
+	}
+}
+#_x37_cone, #_x36_cone, #_x35_cone, #_x34_cone, #_x33_cone, #_x32_cone, #_x31_cone{
+	animation: graphics 8s infinite alternate;
+	-webit-animation: graphics 8s infinite alternate;
+	-o-animation: graphics 8s infinite alternate;
+	-moz-animation: graphics 8s infinite alternate;
+}
+@keyframes graphics{
+	0%{
+		stroke-dashoffset: 400;
+	}
+	25%{
+		stroke-dashoffset: 300;
+	}
+	50%{
+
+		stroke-dasharray: 200;
+	}
+	75%{
+		stroke-dasharray: 100;
+	}
+	100%{
+		stroke-dasharray: 	0;
+	}
+}
+text{
+	animation: logo 5s infinite;
+	-webkit-animation: logo 5s infinite;
+	-o-animation: logo 2s;
+	-moz-animation: logo 2s;
+	
+}
+@keyframes logo{
+	from{
+		stroke-dasharray:250;
+	}
+	to{
+		stroke-dasharray:0;
+	}
+}
+h1{
+	font-size: 40px;
+	color: black;
+	left:380px;
+	top:200px;
+	position: absolute;
+	height: auto;
+}
+/*style sheet for home page*/
+
+.logoimage{
+	padding: 2px;
+	margin: auto;
+	height: 30px;
+}
+
+@media (max-width: 767px) { 
+    .navbar-brand {
+        padding: 0;        
+    }
+
+    .navbar-brand img {
+        margin-top: 5px;
+		margin-left: 5px;
+        
+    }
+}
+#projects{
+	margin: auto;
+	position: absolute;
+	left:300px;
+}
+h2, h3{
+	position: relative;
+}
+#projecth3{
+	text-align: center;
+}
+
+
+.gallery img{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
